@@ -15,7 +15,7 @@ export class Bullet extends Component {
     }
 
     update(deltaTime: number) {
-        //让子弹每帧根据速度移动
+        //让子弹每帧根据速度移动！
         //先获取到子弹的位置
         let pos = this.node.position
 
