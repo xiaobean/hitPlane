@@ -27,7 +27,7 @@ export class Bullet extends Component {
 
         if (Math.abs(moveLength) > OUTOFRANGE){
             this.node.destroy()
-            console.log('子弹超越边界')
+            console.log('子弹超越边界了，销毁')
         }
     }
 }
